@@ -1,16 +1,15 @@
-.navigation-link.current{
+.navigation-link.current {
    color: var(--accent-color);
- }
- .navigation-link.current::after{
-   content: "";
-   display: block;
-   background-color: var(--accent-color);
-   width: 100%;
-   height: 4px;
-   position: absolute;
-   bottom: -32px;
-   opacity: 1;
-   visibility: visible;
-   pointer-events: auto;
- }
- 
+   &::after {
+      content: '';
+      display: block;
+      background-color: var(--accent-color);
+      width: 100%;
+      height: 4px;
+      position: absolute;
+      bottom: -32px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+   }
+}

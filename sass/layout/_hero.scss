@@ -2,17 +2,17 @@
    height: 600px;
    background-color: var(--bgc-main);
    background-image: linear-gradient(
-       to right,
-       rgba(47, 48, 58, 0.4),
-       rgba(47, 48, 58, 0.4)
-     ),
-     url(../images/bg.jpg);
+         to right,
+         rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bg.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    text-align: center;
    padding: 200px;
- }
- .caption {
+}
+.caption {
    margin: 0 auto;
    text-align: center;
    width: 696px;
@@ -22,4 +22,4 @@
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: #ffffff;
- }
+}

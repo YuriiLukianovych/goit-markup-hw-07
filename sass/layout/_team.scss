@@ -1,21 +1,21 @@
 .team {
    background-color: var(--bgc-secondary);
- }
- .team .title {
-   margin-bottom: 50px;
- }
- 
- .team-list {
+   .title {
+      margin-bottom: 50px;
+   }
+}
+
+.team-list {
    display: flex;
    flex-wrap: wrap;
    margin-left: calc(-1 * var(--card-gap));
- }
- .team-list-item {
+}
+.team-list-item {
    flex-basis: calc(100% / 4 - var(--card-gap));
    margin-left: var(--card-gap);
- }
- 
- .team-title {
+}
+
+.team-title {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.188;
@@ -23,8 +23,8 @@
    letter-spacing: 0.03em;
    color: var(--title-color);
    margin-bottom: 10px;
- }
- .team-description {
+}
+.team-description {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.188;
@@ -32,14 +32,14 @@
    letter-spacing: 0.03em;
    color: var(--text-color);
    margin-bottom: 16px;
- }
- 
- .card {
+}
+
+.card {
    background: #ffffff;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-     0px 2px 1px rgba(0, 0, 0, 0.2);
+      0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
- }
- .card-content {
+}
+.card-content {
    padding: 30px 32px;
- }
+}
