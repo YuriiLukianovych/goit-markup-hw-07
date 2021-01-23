@@ -1,0 +1,29 @@
+.clients-list {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+ }
+ 
+ .clients-link {
+   width: 170px;
+   height: 90px;
+   color: #afb1b8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+   border: 1px solid #afb1b8;
+   /* border: 1px solid #2196f3; - accent-color hover */
+   border-radius: 4px;
+ }
+ .clients-link:hover,
+ .clients-link:focus {
+   border-color: var(--accent-color);
+ }
+ .clients-link:hover .clients-icons,
+ .clients-link:focus .clients-icons {
+   fill: var(--accent-color);
+ }
+ .clients-icons {
+   fill: currentColor;
+ }
