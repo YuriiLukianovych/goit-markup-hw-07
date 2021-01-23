@@ -154,3 +154,6 @@
    background-color: var(--accent-color);
    background-image: url(../images/svg/icons/checked.svg);
  }
+.form-policy:focus + .form-policy-text::before{
+  transform: scale(1.2);
+}

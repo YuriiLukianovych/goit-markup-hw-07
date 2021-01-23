@@ -482,6 +482,10 @@ img {
   background-image: url(../images/svg/icons/checked.svg);
 }
 
+.form-policy:focus + .form-policy-text::before {
+  transform: scale(1.2);
+}
+
 .hero {
   height: 600px;
   background-color: var(--bgc-main);
